@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>شعار جمعية إحسان لرعاية الأيتام</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            max-width: 600px;
+            width: 100%;
+            text-align: center;
+        }
+        
+        h1 {
+            color: #2E7D32;
+            margin-bottom: 10px;
+            font-size: 2em;
+        }
+        
+        .subtitle {
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 1.1em;
+        }
+        
+        .logo-container {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            border-radius: 15px;
+            padding: 30px;
+            margin: 20px 0;
+            display: inline-block;
+        }
+        
+        .logo-container svg {
+            max-width: 100%;
+            height: auto;
+            filter: drop-shadow(0 4px 8px rgba(0,0,0,0.1));
+        }
+        
+        .description {
+            background: #f8f9fa;
+            border-right: 4px solid #2E7D32;
+            padding: 20px;
+            margin: 20px 0;
+            text-align: right;
+            border-radius: 8px;
+        }
+        
+        .description h3 {
+            color: #2E7D32;
+            margin-bottom: 10px;
+        }
+        
+        .description ul {
+            list-style: none;
+            padding-right: 20px;
+        }
+        
+        .description li {
+            margin: 8px 0;
+            color: #555;
+            position: relative;
+        }
+        
+        .description li:before {
+            content: "✓";
+            color: #2E7D32;
+            font-weight: bold;
+            position: absolute;
+            right: -20px;
+        }
+        
+        .download-btn {
+            background: linear-gradient(135deg, #2E7D32 0%, #66BB6A 100%);
+            color: white;
+            border: none;
+            padding: 15px 40px;
+            font-size: 1.1em;
+            border-radius: 50px;
+            cursor: pointer;
+            margin: 10px;
+            transition: transform 0.3s, box-shadow 0.3s;
+            text-decoration: none;
+            display: inline-block;
+        }
+        
+        .download-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(46, 125, 50, 0.3);
+        }
+        
+        .color-palette {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin: 20px 0;
+            flex-wrap: wrap;
+        }
+        
+        .color-box {
+            width: 80px;
+            height: 80px;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 0.8em;
+            font-weight: bold;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        
+        .footer {
+            margin-top: 30px;
+            color: #999;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🌟 شعار جمعية إحسان 🌟</h1>
+        <p class="subtitle">لرعاية الأيتام - دومة الجندل</p>
+        
+        <div class="logo-container">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+                <defs>
+                    <linearGradient id="heartGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" style="stop-color:#2E7D32;stop-opacity:1" />
+                        <stop offset="100%" style="stop-color:#66BB6A;stop-opacity:1" />
+                    </linearGradient>
+                    <linearGradient id="handsGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                        <stop offset="0%" style="stop-color:#1565C0;stop-opacity:1" />
+                        <stop offset="100%" style="stop-color:#42A5F5;stop-opacity:1" />
+                    </linearGradient>
+                    <filter id="shadow">
+                        <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.3"/>
+                    </filter>
+                </defs>
+                
+                <circle cx="200" cy="200" r="190" fill="#F5F5F5" opacity="0.5"/>
+                <circle cx="200" cy="200" r="170" fill="none" stroke="#2E7D32" stroke-width="2" opacity="0.3" stroke-dasharray="5,5"/>
+                
+                <g filter="url(#shadow)">
+                    <path d="M 120 220 Q 110 200 115 185 Q 118 175 125 175 Q 130 175 132 182 L 135 195 L 138 180 Q 140 172 147 172 Q 152 172 154 180 L 157 195 L 160 178 Q 162 170 169 170 Q 174 170 176 178 L 179 195 L 182 175 Q 184 167 191 167 Q 196 167 198 175 L 203 200 Q 205 215 200 230 L 185 250 Q 175 260 160 265 L 145 268 Q 135 268 128 260 Q 122 252 120 240 Z" 
+                          fill="url(#handsGradient)" opacity="0.9"/>
+                    <path d="M 280 220 Q 290 200 285 185 Q 282 175 275 175 Q 270 175 268 182 L 265 195 L 262 180 Q 260 172 253 172 Q 248 172 246 180 L 243 195 L 240 178 Q 238 170 231 170 Q 226 170 224 178 L 221 195 L 218 175 Q 216 167 209 167 Q 204 167 202 175 L 197 200 Q 195 215 200 230 L 215 250 Q 225 260 240 265 L 255 268 Q 265 268 272 260 Q 278 252 280 240 Z" 
+                          fill="url(#handsGradient)" opacity="0.9"/>
+                </g>
+                
+                <g filter="url(#shadow)">
+                    <path d="M 200 240 C 200 240 160 210 160 180 C 160 160 170 145 185 145 C 195 145 200 155 200 155 C 200 155 205 145 215 145 C 230 145 240 160 240 180 C 240 210 200 240 200 240 Z" 
+                          fill="url(#heartGradient)"/>
+                    <path d="M 200 225 C 200 225 172 202 172 180 C 172 166 179 156 189 156 C 196 156 200 163 200 163 C 200 163 204 156 211 156 C 221 156 228 166 228 180 C 228 202 200 225 200 225 Z" 
+                          fill="#FFFFFF" opacity="0.3"/>
+                </g>
+                
+                <g opacity="0.85">
+                    <circle cx="170" cy="130" r="12" fill="#FF9800"/>
+                    <path d="M 170 142 L 165 165 L 160 175 M 170 142 L 175 165 L 180 175 M 170 150 L 162 158 M 170 150 L 178 158" 
+                          stroke="#FF9800" stroke-width="4" stroke-linecap="round" fill="none"/>
+                    <circle cx="200" cy="120" r="14" fill="#FF9800"/>
+                    <path d="M 200 134 L 195 160 L 190 172 M 200 134 L 205 160 L 210 172 M 200 143 L 192 152 M 200 143 L 208 152" 
+                          stroke="#FF9800" stroke-width="4" stroke-linecap="round" fill="none"/>
+                    <circle cx="230" cy="130" r="12" fill="#FF9800"/>
+                    <path d="M 230 142 L 225 165 L 220 175 M 230 142 L 235 165 L 240 175 M 230 150 L 222 158 M 230 150 L 238 158" 
+                          stroke="#FF9800" stroke-width="4" stroke-linecap="round" fill="none"/>
+                </g>
+                
+                <g transform="translate(200, 85)">
+                    <path d="M -8 -5 Q -8 -15 0 -15 Q -3 -15 -3 -5 Q -3 5 0 5 Q -8 5 -8 -5 Z" 
+                          fill="#2E7D32" opacity="0.8"/>
+                    <path d="M 5 -10 L 6 -7 L 9 -7 L 7 -5 L 8 -2 L 5 -4 L 2 -2 L 3 -5 L 1 -7 L 4 -7 Z" 
+                          fill="#2E7D32" opacity="0.8"/>
+                </g>
+                
+                <g opacity="0.2" stroke="#2E7D32" fill="none" stroke-width="1.5">
+                    <circle cx="90" cy="200" r="8"/>
+                    <circle cx="310" cy="200" r="8"/>
+                    <path d="M 85 200 L 75 200 M 90 195 L 90 185 M 90 205 L 90 215 M 95 200 L 105 200"/>
+                    <path d="M 305 200 L 295 200 M 310 195 L 310 185 M 310 205 L 310 215 M 315 200 L 325 200"/>
+                </g>
+                
+                <text x="200" y="305" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#2E7D32">
+                    جمعية إحسان
+                </text>
+                <text x="200" y="330" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#1565C0">
+                    لرعاية الأيتام
+                </text>
+                <text x="200" y="350" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="#666666">
+                    دومة الجندل
+                </text>
+                
+                <path d="M 100 365 Q 200 370 300 365" stroke="#2E7D32" stroke-width="2" fill="none" opacity="0.4"/>
+            </svg>
+        </div>
+        
+        <div class="description">
+            <h3>🎨 عناصر التصميم:</h3>
+            <ul>
+                <li>هلال ونجمة إسلامية في الأعلى</li>
+                <li>ثلاثة أطفال يمثلون الأيتام</li>
+                <li>قلب أخضر يرمز للحب والرعاية</li>
+                <li>يدان حاضنتان ترمزان للحماية والاحتواء</li>
+                <li>زخارف إسلامية جانبية</li>
+                <li>ألوان دافئة ومريحة للنفس</li>
+            </ul>
+        </div>
+        
+        <h3 style="color: #2E7D32; margin: 20px 0;">لوحة الألوان المستخدمة:</h3>
+        <div class="color-palette">
+            <div class="color-box" style="background: linear-gradient(135deg, #2E7D32, #66BB6A);">
+                <span>أخضر</span>
+                <small>#2E7D32</small>
+            </div>
+            <div class="color-box" style="background: linear-gradient(135deg, #1565C0, #42A5F5);">
+                <span>أزرق</span>
+                <small>#1565C0</small>
+            </div>
+            <div class="color-box" style="background: #FF9800;">
+                <span>برتقالي</span>
+                <small>#FF9800</small>
+            </div>
+        </div>
+        
+        <a href="logo.svg" download="logo-ehsan-charity.svg" class="download-btn">
+            📥 تحميل الشعار SVG
+        </a>
+        
+        <div class="footer">
+            <p>✨ تصميم فريد وحصري لجمعية إحسان لرعاية الأيتام ✨</p>
+            <p>دومة الجندل - المملكة العربية السعودية</p>
+        </div>
+    </div>
+</body>
+</html>
